@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.9.9)  10 SEP 2022 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.9.9)  10 SEP 2022 19:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/0 - Prerequisites/0_prerequisites.tex"
-(/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/0 - Prerequisites/0_prerequisites.tex
+**"/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/presentation/LPP_atelierEMA_partII.tex"
+(/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/presentation/LPP_atelierEMA_partII.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -1150,15 +1150,17 @@ LaTeX Font Info:    Redeclaring math accent \widearc on input line 273.
 LaTeX Font Info:    Redeclaring math accent \wideOarc on input line 274.
 \symUfutm=\mathgroup10
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
 
-/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/0 - Prerequisites/0_prerequisites.tex:14: LaTeX Error: Option clash for package geometry.
+
+/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/presentation/LPP_atelierEMA_partII.tex:19: LaTeX Error: Option clash for package geometry.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \beamertemplatenavigationsymbolsempty
-                                          
+l.19 \usepackage
+                {docmute}
 The package geometry has already been loaded with options:
   [papersize={\beamer@paperwidth ,\beamer@paperheight },hmargin=1cm,vmargin=0cm,head=0.5cm,headsep=0pt,foot=0.5cm]
 There has now been an attempt to load it with options
@@ -1168,69 +1170,72 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
+(/usr/share/texmf-dist/tex/latex/docmute/docmute.sty
+Package: docmute 2012/03/22 v1.4 Input stand-alone documents
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 16.
+(hyperref)                removing `\\' on input line 23.
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box75
-) (./0_prerequisites.aux)
-\openout1 = `0_prerequisites.aux'.
+) (./LPP_atelierEMA_partII.aux)
+\openout1 = `LPP_atelierEMA_partII.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 18.
-LaTeX Font Info:    Trying to load font information for OML+jkp on input line 18.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 26.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 26.
  (/usr/share/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 26.
  (/usr/share/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 26.
  (/usr/share/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 26.
  (/usr/share/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 18.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 26.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 26.
  (/usr/share/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 26.
  (/usr/share/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 26.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 26.
  (/usr/share/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1281,17 +1286,11 @@ LaTeX Font Info:    ... okay on input line 18.
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring ON on input line 26.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1301,94 +1300,94 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write5
-\openout5 = `0_prerequisites.out'.
+\openout5 = `LPP_atelierEMA_partII.out'.
 
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 18.
+(Font)              `operators' in the math version `normal' on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  T1/futs/m/n --> OT1/cmss/m/n on input line 18.
+(Font)                  T1/futs/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 18.
+(Font)              `operators' in the math version `bold' on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/b/n --> OT1/cmss/b/n on input line 18.
+(Font)                  T1/futs/b/n --> OT1/cmss/b/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 18.
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/jkpss/b/n on input line 18.
+(Font)                  OT1/cmss/b/n --> OT1/jkpss/b/n on input line 26.
 \symnumbers=\mathgroup11
 \sympureletters=\mathgroup12
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  T1/futs/m/n --> T1/futs/m/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
+(Font)                  T1/futs/m/n --> T1/futs/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
-(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
-(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
-(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
-(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
+(Font)                  T1/futs/bx/n --> T1/jkpss/b/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/jkpss/m/n --> T1/jkpss/m/n on input line 18.
+(Font)                  OT1/jkpss/m/n --> T1/jkpss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/jkpss/b/n --> T1/jkpss/m/n on input line 18.
+(Font)                  OT1/jkpss/b/n --> T1/jkpss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
-(Font)                  OT1/jkpss/m/n --> T1/jkpss/m/n on input line 18.
+(Font)                  OT1/jkpss/m/n --> T1/jkpss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
-(Font)                  OT1/jkpss/b/n --> T1/jkpss/m/n on input line 18.
+(Font)                  OT1/jkpss/b/n --> T1/jkpss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
-(Font)                  OT1/jkpss/m/n --> T1/jkpss/m/n on input line 18.
+(Font)                  OT1/jkpss/m/n --> T1/jkpss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
-(Font)                  OT1/jkpss/b/n --> T1/jkpss/m/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
+(Font)                  OT1/jkpss/b/n --> T1/jkpss/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 18.
+(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 18.
+(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
-(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 18.
+(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
-(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 18.
+(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
-(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 18.
+(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
-(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
+(Font)                  T1/futs/m/it --> T1/jkpss/m/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/jkptt/m/n --> T1/jkptt/m/n on input line 18.
+(Font)                  OT1/jkptt/m/n --> T1/jkptt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/jkptt/b/n --> T1/jkptt/m/n on input line 18.
+(Font)                  OT1/jkptt/b/n --> T1/jkptt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
-(Font)                  OT1/jkptt/m/n --> T1/jkptt/m/n on input line 18.
+(Font)                  OT1/jkptt/m/n --> T1/jkptt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
-(Font)                  OT1/jkptt/b/n --> T1/jkptt/m/n on input line 18.
+(Font)                  OT1/jkptt/b/n --> T1/jkptt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
-(Font)                  OT1/jkptt/m/n --> T1/jkptt/m/n on input line 18.
+(Font)                  OT1/jkptt/m/n --> T1/jkptt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
-(Font)                  OT1/jkptt/b/n --> T1/jkptt/m/n on input line 18.
+(Font)                  OT1/jkptt/b/n --> T1/jkptt/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/jkpss/m/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/jkpss/m/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/jkpss/m/it --> T1/jkpss/b/it on input line 18.
+(Font)                  T1/jkpss/m/it --> T1/jkpss/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 18.
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/jkpss/b/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/jkpss/b/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/jkpss/m/n --> T1/jkpss/b/n on input line 18.
+(Font)                  T1/jkpss/m/n --> T1/jkpss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/jkpss/m/it --> T1/jkpss/b/it on input line 18.
+(Font)                  T1/jkpss/m/it --> T1/jkpss/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/jkptt/m/n --> T1/jkptt/b/n on input line 18.
+(Font)                  T1/jkptt/m/n --> T1/jkptt/b/n on input line 26.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1402,76 +1401,240 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Font Info:    Redeclaring math symbol \iintop on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \iiintop on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \oiintop on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \oiiintop on input line 18.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 18.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \iintop on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \iiintop on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \oiintop on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \oiiintop on input line 26.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 26.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 26.
 
 
-/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/0 - Prerequisites/0_prerequisites.tex:18: LaTeX Error: Command \widering already defined.
+/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/presentation/LPP_atelierEMA_partII.tex:26: LaTeX Error: Command \widering already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \begin{document}
+l.26 \begin{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-No file 0_prerequisites.nav.
+No file LPP_atelierEMA_partII.nav.
+\docmute@nestinglevel=\count347
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 38.
+(/usr/share/texmf-dist/tex/latex/fourier/t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 38.
+ (/usr/share/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 38.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 38.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 38.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 38.
+ (/usr/share/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsssyb on input line 38.
+ (/usr/share/texmf-dist/tex/latex/kpfonts/ujkpsssyb.fd
+File: ujkpsssyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpssmia on input line 38.
+ (/usr/share/texmf-dist/tex/latex/kpfonts/ujkpssmia.fd
+File: ujkpssmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 38.
+ (/usr/share/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 38.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 38.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 38.
+LaTeX Font Info:    Font shape `T1/jkpss/m/it' in size <12> not available
+(Font)              Font shape `T1/jkpss/m/sl' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/jkpss/m/it' in size <9> not available
+(Font)              Font shape `T1/jkpss/m/sl' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/jkpss/m/it' in size <7> not available
+(Font)              Font shape `T1/jkpss/m/sl' tried instead on input line 38.
+<../pictures/LPP_logo.png, id=14, 501.875pt x 501.875pt>
+File: ../pictures/LPP_logo.png Graphic file (type png)
+<use ../pictures/LPP_logo.png>
+Package pdftex.def Info: ../pictures/LPP_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 37.63899pt x 37.63899pt.
+<../pictures/CNRS_logo.png, id=16, 501.875pt x 501.875pt>
+File: ../pictures/CNRS_logo.png Graphic file (type png)
+<use ../pictures/CNRS_logo.png>
+Package pdftex.def Info: ../pictures/CNRS_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 37.63899pt x 37.63899pt.
+<../pictures/LabexEFL_logo.png, id=17, 482.80376pt x 250.9375pt>
+File: ../pictures/LabexEFL_logo.png Graphic file (type png)
+<use ../pictures/LabexEFL_logo.png>
+Package pdftex.def Info: ../pictures/LabexEFL_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 72.41743pt x 37.63899pt.
+<../pictures/SN_logo.png, id=18, 1493.58pt x 501.875pt>
+File: ../pictures/SN_logo.png Graphic file (type png)
+<use ../pictures/SN_logo.png>
+Package pdftex.def Info: ../pictures/SN_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 112.01366pt x 37.63899pt.
 
-/home/philipp/Documents/GitHub/LPP_atelierEMA/Part II - Python and Praat/LaTeX-FILES/0 - Prerequisites/0_prerequisites.tex:25: LaTeX Error: There's no line here to end.
+Overfull \hbox (0.41927pt too wide) in paragraph at lines 38--38
+ [][] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../pictures/LPP_logo.png> <../pictures/CNRS_logo.png> <../pictures/LabexEFL_logo.png> <../pictures/SN_logo.png>]
+No file LPP_atelierEMA_partII.toc.
+[2
+
+] [3
+
+] (../0 - Prerequisites/0_prerequisites.tex
+<../pictures/Praat_logo.png, id=42, 120.45pt x 120.45pt>
+File: ../pictures/Praat_logo.png Graphic file (type png)
+<use ../pictures/Praat_logo.png>
+Package pdftex.def Info: ../pictures/Praat_logo.png  used on input line 27.
+(pdftex.def)             Requested size: 90.33727pt x 90.33727pt.
+ [4
+
+ <../pictures/Praat_logo.png>]
+File: ../pictures/Praat_logo.png Graphic file (type png)
+<use ../pictures/Praat_logo.png>
+Package pdftex.def Info: ../pictures/Praat_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 90.33727pt x 90.33727pt.
+<../pictures/Python_logo.png, id=55, 120.45pt x 120.45pt>
+File: ../pictures/Python_logo.png Graphic file (type png)
+<use ../pictures/Python_logo.png>
+Package pdftex.def Info: ../pictures/Python_logo.png  used on input line 38.
+(pdftex.def)             Requested size: 90.33727pt x 90.33727pt.
+ [5
+
+ <../pictures/Python_logo.png>]
+File: ../pictures/Praat_logo.png Graphic file (type png)
+<use ../pictures/Praat_logo.png>
+Package pdftex.def Info: ../pictures/Praat_logo.png  used on input line 49.
+(pdftex.def)             Requested size: 90.33727pt x 90.33727pt.
+File: ../pictures/Python_logo.png Graphic file (type png)
+<use ../pictures/Python_logo.png>
+Package pdftex.def Info: ../pictures/Python_logo.png  used on input line 49.
+(pdftex.def)             Requested size: 90.33727pt x 90.33727pt.
+<../pictures/viscacha.png, id=68, 86.724pt x 120.45pt>
+File: ../pictures/viscacha.png Graphic file (type png)
+<use ../pictures/viscacha.png>
+Package pdftex.def Info: ../pictures/viscacha.png  used on input line 49.
+(pdftex.def)             Requested size: 65.04282pt x 90.33727pt.
+ [6
+
+ <../pictures/viscacha.png>]
+<../pictures/windows_logo.png, id=77, 24.09pt x 24.09pt>
+File: ../pictures/windows_logo.png Graphic file (type png)
+<use ../pictures/windows_logo.png>
+Package pdftex.def Info: ../pictures/windows_logo.png  used on input line 70.
+(pdftex.def)             Requested size: 24.08992pt x 24.08992pt.
+<../pictures/macos_logo.png, id=78, 17.8266pt x 24.09pt>
+File: ../pictures/macos_logo.png Graphic file (type png)
+<use ../pictures/macos_logo.png>
+Package pdftex.def Info: ../pictures/macos_logo.png  used on input line 70.
+(pdftex.def)             Requested size: 17.82654pt x 24.08992pt.
+<../pictures/linux_logo.png, id=79, 30.1125pt x 24.09pt>
+File: ../pictures/linux_logo.png Graphic file (type png)
+<use ../pictures/linux_logo.png>
+Package pdftex.def Info: ../pictures/linux_logo.png  used on input line 70.
+(pdftex.def)             Requested size: 30.11241pt x 24.08992pt.
+
+
+../0 - Prerequisites/0_prerequisites.tex:70: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \end{frame}
+l.70 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[7
 
-]
+ <../pictures/windows_logo.png> <../pictures/macos_logo.png> <../pictures/linux_logo.png>]
+<../pictures/anaconda_logo.png, id=97, 246.6816pt x 123.3408pt>
+File: ../pictures/anaconda_logo.png Graphic file (type png)
+<use ../pictures/anaconda_logo.png>
+Package pdftex.def Info: ../pictures/anaconda_logo.png  used on input line 91.
+(pdftex.def)             Requested size: 123.34048pt x 61.67024pt.
+ [8
+
+ <../pictures/anaconda_logo.png>] [9
+
+]) [10
+
+] (../1 - ema2wav/1_ema2wav_and_praat.tex
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 31.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 31.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 31.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 31.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 31.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 31.
+LaTeX Font Info:    Font shape `T1/jkpss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/jkpss/m/sl' tried instead on input line 31.
+LaTeX Font Info:    Font shape `T1/jkpss/m/it' in size <8.3> not available
+(Font)              Font shape `T1/jkpss/m/sl' tried instead on input line 31.
+LaTeX Font Info:    Font shape `T1/jkpss/m/it' in size <6> not available
+(Font)              Font shape `T1/jkpss/m/sl' tried instead on input line 31.
+ [11
+
+] [12
+
+])
 \tf@nav=\write6
-\openout6 = `0_prerequisites.nav'.
+\openout6 = `LPP_atelierEMA_partII.nav'.
 
 \tf@toc=\write7
-\openout7 = `0_prerequisites.toc'.
+\openout7 = `LPP_atelierEMA_partII.toc'.
 
 \tf@snm=\write8
-\openout8 = `0_prerequisites.snm'.
+\openout8 = `LPP_atelierEMA_partII.snm'.
 
- (./0_prerequisites.aux)
+ (./LPP_atelierEMA_partII.aux)
 
-Package rerunfilecheck Warning: File `0_prerequisites.out' has changed.
+Package rerunfilecheck Warning: File `LPP_atelierEMA_partII.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `0_prerequisites.out':
+Package rerunfilecheck Info: Checksums for `LPP_atelierEMA_partII.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             After:  61559F145ACF4BFCAFAE81FEED32088B;537.
  ) 
 Here is how much of TeX's memory you used:
- 23930 strings out of 478238
- 451485 string characters out of 5850457
- 710623 words of memory out of 5000000
- 41667 multiletter control sequences out of 15000+600000
- 494311 words of font info for 43 fonts, out of 8000000 for 9000
+ 24342 strings out of 478238
+ 460261 string characters out of 5850457
+ 711214 words of memory out of 5000000
+ 41982 multiletter control sequences out of 15000+600000
+ 610810 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,122p,546b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a.pfb>
-Output written on 0_prerequisites.pdf (1 page, 11028 bytes).
+ 128i,14n,122p,547b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssbsc8a.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpssmsc8a.pfb>
+Output written on LPP_atelierEMA_partII.pdf (12 pages, 920339 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
