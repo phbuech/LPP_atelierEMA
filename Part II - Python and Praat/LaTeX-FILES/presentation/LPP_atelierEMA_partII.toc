@@ -1,6 +1,0 @@
-\babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Software requirements}{4}{0}{1}
-\beamer@subsectionintoc {1}{1}{Python}{7}{0}{1}
-\beamer@subsectionintoc {1}{2}{ema2wav}{9}{0}{1}
-\beamer@sectionintoc {2}{Program start}{11}{0}{2}
-\beamer@sectionintoc {3}{User input}{12}{0}{3}

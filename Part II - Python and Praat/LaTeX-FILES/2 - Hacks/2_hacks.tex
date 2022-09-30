@@ -1,0 +1,174 @@
+\documentclass[12pt,a4paper]{beamer}
+\usetheme{Montpellier}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{kpfonts}
+\usepackage{fourier}
+\usepackage{hyperref}
+\usepackage{tipa}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+
+\section{Annotations}
+\begin{frame}
+    \frametitle{Annotations}
+    \centering
+    \begin{Large}
+        Why use IPA for annotations?
+    \end{Large}
+\end{frame}
+
+\subsection{character encoding schemes}
+\begin{frame}
+    \frametitle{Encoding}
+    \begin{itemize}
+        \item IPA symbols in Unicode (latin character, IPA extensions, Phonetic extensions)
+        \item Whats the problem?
+        \item different character encoding schemes:
+        \begin{itemize}
+            \item ASCII
+            \item UTF-8
+            \item UTF-16
+            \item UTF-32
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.4]{../../../../../pictures/ascii.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.2]{../../../../../pictures/utf16.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.5]{../../../../../pictures/compare.png}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        {\LARGE \c{c}}
+    \end{center}
+    \begin{itemize}
+        \item How many glyphs?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        {\LARGE \c{c}}
+    \end{center}
+    \begin{itemize}
+        \item How many glyphs?
+        \item U+00E7
+        \item c (U+0063) + \c{\quad} (U+0328)
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item ASCII and UTF-8 are compatible
+        \item UTF-16 is not compatible with UTF-8
+        \item but:
+        \begin{itemize}
+            \item UTF-8 with or without BOM
+            \item UTF-16 Big Endian (Mac) vs UTF-16 Little Endian (Windows) (UNIX vs NUXI)
+        \end{itemize}
+        \item Why is this important?
+        \begin{itemize}
+            \item archiving of your data
+            \item data sharing with collaborators
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\subsection{Praat}
+\begin{frame}
+    \frametitle{Text encoding in Praat (text writing)}
+    \centering
+    \includegraphics[scale=0.5]{../../../../../pictures/textwriting.png} 
+\end{frame}
+
+\begin{frame}
+    \frametitle{Text encoding in Praat (text reading)}
+    \centering
+    \includegraphics[scale=0.5]{../../../../../pictures/textreading.png} 
+\end{frame}
+
+\subsection{Recommendations}
+\begin{frame}
+    \frametitle{Recommendations}
+    \begin{itemize}
+        \item uniform encoding
+        \item X-Sampa
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.2]{../../../../../pictures/xsampa.png}
+\end{frame}
+
+\subsection{Hack for forced alignment}
+\begin{frame}
+    \centering
+    {\LARGE Hack for forced alignment}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity1.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity2.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity3.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity4.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity5.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity6.png}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/audacity7.png}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item use a script to extract the utterances of interest
+        \item have one wav and one text file per utterance
+        \item use the forced-alignment system of your choice
+    \end{itemize}
+\end{frame}
+
+\end{document}

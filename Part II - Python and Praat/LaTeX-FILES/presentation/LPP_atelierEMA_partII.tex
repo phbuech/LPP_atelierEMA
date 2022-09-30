@@ -11,6 +11,7 @@
 \usepackage{kpfonts}
 \usepackage{fourier}
 \usepackage{hyperref}
+\usepackage{tipa}
 \hypersetup{
     colorlinks=True,
     linkcolor=purple
@@ -19,7 +20,7 @@
 \usepackage{docmute}
 \beamertemplatenavigationsymbolsempty
 \setbeamertemplate{footline}[frame number]
-\title{Atelier EMA\\ - \\Part II: Python \& Praat}
+\title{Atelier EMA\\ - \\Part II: ema2wav \& Praat}
 \author{Philipp Buech\\{\scriptsize Laboratoire de Phonétique et Phonology - UMR 7018, CNRS/Sorbonne Nouvelle}}
 \date{30/09/2022}
 
@@ -30,14 +31,12 @@
     \maketitle
     \centering
     \begin{tabular}{cccc}
-        \includegraphics[scale=0.075]{../pictures/LPP_logo.png}  &
-        \includegraphics[scale=0.075]{../pictures/CNRS_logo.png} & 
-        \includegraphics[scale=0.15]{../pictures/LabexEFL_logo.png} & 
-        \includegraphics[scale=0.075]{../pictures/SN_logo.png}    
+        \includegraphics[scale=0.075]{../../../../../pictures/LPP_logo.png}  &
+        \includegraphics[scale=0.075]{../../../../../pictures/CNRS_logo.png} & 
+        \includegraphics[scale=0.15]{../../../../../pictures/LabexEFL_logo.png} & 
+        \includegraphics[scale=0.075]{../../../../../pictures/SN_logo.png}    
     \end{tabular}
 \end{frame}
-
-\frame{\tableofcontents}
 
 \begin{frame}
     \begin{center}
@@ -60,5 +59,16 @@
 \end{frame}
 
 \input{../1 - ema2wav/1_ema2wav_and_praat.tex}
+
+\begin{frame}
+    \begin{center}
+        \vspace{2cm}
+        \begin{LARGE}
+            3 - Hacks
+        \end{LARGE}
+    \end{center}
+\end{frame}
+
+\input{../2 - Hacks/2_hacks.tex}
 
 \end{document}

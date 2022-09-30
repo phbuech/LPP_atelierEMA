@@ -30,9 +30,222 @@
     
 \end{frame}
 
+\section{Installation}
+\begin{frame}
+    \frametitle{Installation (Anaconda - script version)}
+    \begin{itemize}
+        \item open Terminal/Console/Anaconda Prompt
+        \item create conda environment:\\
+        \texttt{conda create --name ema\_env}
+        \item activate the environment:\\
+        \texttt{conda activate ema\_env}
+        \item install the dependencies:\\
+        \texttt{pip install -r path/to/ema2wav/folder/\underline{src/requirements.txt}}
+    \end{itemize}
+\end{frame}
+
+\section{Run ema2wav}
+\begin{frame}
+    \frametitle{Run ema2wav}
+    \begin{itemize}
+        \item for Mac: run ema2wav\_ app.app (see GitHub documentation)
+        \item script version (GUI, from terminal, ema2wav src directory assumed):\\
+        \texttt{python ema2wav\_app.py}
+    \end{itemize}
+\end{frame}
+
 \section{User input}
 \begin{frame}
     \frametitle{User input}
+    \centering
+    \includegraphics[scale=0.65]{../../../../../pictures/json_input.png}
 \end{frame}
 
+\begin{frame}
+    \frametitle{User input - parts of the input file}
+    \centering
+    \includegraphics[scale=1.725]{../../../../../pictures/json_parts.png}
+\end{frame}
+
+\section{Conversion process}
+\begin{frame}
+    \frametitle{Start of the conversion process (GUI)}
+    \centering
+    \includegraphics[scale=0.25]{../../../../../pictures/GUI_blank.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Start of the conversion process (manual)}
+    \begin{itemize}
+        \item from terminal (ema2wav src directory assumed)\\
+        \texttt{python convert.py config.json}
+        \item as Python module:\\
+        \texttt{import ema2wav\_core as ec}\\
+        \texttt{config\_file = "/path/to/your/config\_file.json"}\\
+        \texttt{ec.ema2wav\_conversion(config\_file)}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/process.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - reshaping of the data}
+    \centering
+    \includegraphics[scale=0.45]{../../../../../pictures/reshape.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Interpolation}
+    \centering
+    \includegraphics[scale=0.2]{../../../../../pictures/cubic_spline.png}\\
+    {\scriptsize (https://en.wikipedia.org/wiki/Spline\_interpolation#/media/File:Cubic\_splines\_three\_points.svg)}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - GUI approach}
+    \centering
+    \includegraphics[scale=0.3]{../../../../../pictures/GUI_blank.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - GUI approach (2)}
+    \begin{itemize}
+        \item open the folders containing .pos and .wav files
+        \item channel allocation: enter name & channel number
+        \item parameters of interest: enter channel name & parameters
+        \item select filter (if necessary)
+        \item open output folder
+        \item start the conversion
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - GUI approach (3)}
+    \begin{itemize}
+        \item config file as documentation
+        \item can be used for replicating the conversion process (load CONFIG)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab approach}
+    \begin{itemize}
+        \item \href{colab.research.google.com}{\textbf{\textsc{Google Colab}}}
+        \item execute Jupyter Notebooks  online
+        \item free & easy-to-use
+        \item see example notebook
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab (1)}
+    \begin{itemize}
+        \item open the example notebook in Google Colab
+    \end{itemize}
+    \centering
+    \includegraphics[scale=0.15]{../../../../../pictures/GC1.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab (2)}
+    \begin{itemize}
+        \item open the files folder
+    \end{itemize}
+    \centering
+    \includegraphics[scale=0.15]{../../../../../pictures/GC2.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab (3)}
+    \begin{itemize}
+        \item run the first code snippet
+    \end{itemize}
+    \centering
+    \includegraphics[scale=0.15]{../../../../../pictures/GC3.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab (4)}
+    \begin{itemize}
+        \item upload your .pos and .wav files
+    \end{itemize}
+    \centering
+    \includegraphics[scale=0.15]{../../../../../pictures/GC4.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab (5)}
+    \begin{itemize}
+        \item upload the GC config file
+    \end{itemize}
+    \centering
+    \includegraphics[scale=0.15]{../../../../../pictures/GC5.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conversion process - Google Colab (6)}
+    \begin{itemize}
+        \item run the other code snippets and download converted files
+    \end{itemize}
+    \centering
+    \includegraphics[scale=0.15]{../../../../../pictures/GC6.png}
+\end{frame}
+
+\section{Annotation \& Measurements in Praat}
+\begin{frame}
+    \centering
+    {\LARGE Annotation \& Measurements in Praat}
+\end{frame}
+
+\subsection{Praat tweaks}
+\begin{frame}
+    \frametitle{Praat tweaks}
+    \begin{itemize}
+        \item Display default settings in Praat are not suitable for annotating EMA data
+        \item Options for the best annotation experience:
+        \begin{itemize}
+            \item disable the spectrogram
+            \item Change sound scaling in the editor window: \\
+            (Sound > Sound scaling... > select 'by window and channel')
+            \item Mute channels (if necessary):\\
+            (Sound > Mute channels... > (ranges) > enter 2:X)
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\subsection{Annotations}
+\begin{frame}
+    \frametitle{Landmark annotations}
+    \centering
+    \includegraphics[scale=0.4]{../../../../../pictures/landmarks.png}\\
+    \\
+    {\scriptsize Gestural landmarks and intragestural intervals for a typical gestural complex (Tilsen, 2014)}
+\end{frame}
+
+\begin{frame}
+    \centering
+    \includegraphics[scale=0.23]{../../../../../pictures/praat_example.png}\\
+\end{frame}
+
+
+\begin{frame}
+    \begin{itemize}
+        \item Annotations of gestural landmarks using Point Tiers in Praat
+        \item retrieve timing information as usual
+        \item measure amplitude information by calling 'Get value at time' applied to the Sound object
+        \item see \textbf{measurement\_example.praat}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Remarks}
+    \begin{itemize}
+        \item never use the entire file for frequency/intensity/spectral measurements! Instead: extract the the audio track and use that for acoustic measurements
+        \item make use of a good documentation of your files
+    \end{itemize}
+\end{frame}
 \end{document}

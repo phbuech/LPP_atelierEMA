@@ -1,0 +1,16 @@
+{
+    "ema_device_info": "AG50x",
+    "export_audio+ema": true,
+    "export_to_csv": false,
+    "export_raw_ema": false,
+    "audio_input_directory": "/content/input/",
+    "ema_input_directory": "/content/input/",
+    "output_directory": "/content/output",
+    "channel_allocation": {
+        "TTIP": 5
+    },
+    "parameters_of_interest": {
+        "0_TTIP": "y"
+    },
+    "filter": null
+}
